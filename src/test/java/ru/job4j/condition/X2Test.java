@@ -13,7 +13,7 @@ public class X2Test {
         int x = 2;
         int expected = 40;
         int rsl = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,rsl);
+        Assert.assertEquals(expected, rsl);
     }
 
     @Test
