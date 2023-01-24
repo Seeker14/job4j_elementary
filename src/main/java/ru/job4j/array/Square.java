@@ -3,8 +3,8 @@ package ru.job4j.array;
 public class Square {
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
-        for (bound = 0; bound < rst.length; bound++) {
-            rst[bound] = (int) Math.pow(bound, 2);
+        for (int index = 0; index < bound; index++) {
+            rst[index] = (int) Math.pow(index, 2);
         }
         return rst;
     }
